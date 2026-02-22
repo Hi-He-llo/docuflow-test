@@ -3,7 +3,7 @@ let username = document.getElementById("username").value;
 let password = document.getElementById("password").value;
 
 if (username === "" || password === "") {
-displayMessage("All fields are required", "red");
+displayMessage("All fields are required", "blue");
 return;
 }
 
